@@ -4,14 +4,7 @@
 
 
 readme.md: guessinggame.sh
-
-
-
-
-
-
-
-	echo "Peer graded Assignment" > readme.md
+	echo "Pregrade Assignment" > readme.md
 	echo "Code contains following number of lines" >> readme.md
 
 	wc -l guessinggame.sh | egrep -o "[0-9]+" >> readme.md
